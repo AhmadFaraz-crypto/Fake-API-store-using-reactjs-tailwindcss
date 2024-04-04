@@ -35,7 +35,7 @@ Users can:
 
 - Live Site URL: [https://fake-api-store-using-reactjs-tailwindcss.vercel.app/
   ](https://fake-api-store-using-reactjs-tailwindcss.vercel.app/)
-- Video Tutorial: [Youtube link](https://your-live-site-url.com)
+- Video Tutorial: [Youtube link](https://youtu.be/6noM056stoE)
 
 ### Built with
 
