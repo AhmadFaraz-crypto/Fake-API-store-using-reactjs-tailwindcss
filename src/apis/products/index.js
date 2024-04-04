@@ -26,5 +26,5 @@ export function updateProduct(id, payload) {
 }
 
 export function deleteProduct(id) {
-    return axios.get(`${Config.API_URL}/products/${id}`);
+    return axios.delete(`${Config.API_URL}/products/${id}`);
 }
