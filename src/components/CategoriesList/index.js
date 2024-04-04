@@ -18,9 +18,9 @@ export default function CategoriesList({
               selectedCategory === category ? "pr-7" : "pr-3"
             } py-2 mr-3 cursor-pointer text-sm mb-3 font-medium text-center text-white bg-orange-400 rounded-xl hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 ${
               selectedCategory === category
-                ? "dark:bg-orange-600"
-                : "dark:bg-orange-400"
-            } dark:hover:bg-orange-700 dark:focus:ring-orange-800`}
+                ? "bg-orange-600"
+                : "bg-orange-400"
+            } hover:bg-orange-700 focus:ring-orange-800`}
           >
             {category}
           </div>

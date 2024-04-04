@@ -9,11 +9,11 @@ export default function ProductDetailLoader({ product }) {
             <div className="flex justify-center px-4 py-10 rounded-xl shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative">
               <div
                 role="status"
-                className="max-w-sm p-4 w-full border border-gray-200 rounded shadow animate-pulse md:p-6 dark:border-gray-700"
+                className="max-w-sm p-4 w-full border border-gray-200 rounded shadow animate-pulse md:p-6 border-gray-700"
               >
-                <div className="flex items-center justify-center h-48 mb-4 bg-gray-300 rounded dark:bg-gray-700">
+                <div className="flex items-center justify-center h-48 mb-4 bg-gray-300 rounded bg-gray-700">
                   <svg
-                    className="w-10 h-10 text-gray-200 dark:text-gray-600"
+                    className="w-10 h-10 text-gray-200 text-gray-600"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -28,12 +28,12 @@ export default function ProductDetailLoader({ product }) {
           </div>
           <div className="lg:col-span-2">
             <div role="status" className="max-w-sm animate-pulse">
-              <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
-              <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
-              <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-              <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[330px] mb-2.5"></div>
-              <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
-              <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px]"></div>
+              <div className="h-2.5 bg-gray-200 rounded-full bg-gray-700 w-48 mb-4"></div>
+              <div className="h-2 bg-gray-200 rounded-full bg-gray-700 max-w-[360px] mb-2.5"></div>
+              <div className="h-2 bg-gray-200 rounded-full bg-gray-700 mb-2.5"></div>
+              <div className="h-2 bg-gray-200 rounded-full bg-gray-700 max-w-[330px] mb-2.5"></div>
+              <div className="h-2 bg-gray-200 rounded-full bg-gray-700 max-w-[300px] mb-2.5"></div>
+              <div className="h-2 bg-gray-200 rounded-full bg-gray-700 max-w-[360px]"></div>
               <span className="sr-only">Loading...</span>
             </div>
           </div>
